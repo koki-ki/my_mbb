@@ -12,6 +12,7 @@ SCRIPT_ABS_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.abspath(os.path.join(SCRIPT_ABS_DIR, "..")))
 sys.path.append('..')
 sys.path.append('../lib')
+sys.path.append('../../res/')
 
 from pbc.trainer.MBBTrainer import MBBTrainer  # noqa
 from pbc.model.TrainingModel import MaximumBayesBoundarynessTraining  # noqa
@@ -85,8 +86,12 @@ def main():
                          y_test)
 
     # Training
-    trainer.train()
+    time = trainer.train()
 
+    # res_path = '../../res/' + str(time) + '.txt'
+    time_result = trainer.conf.output + '/' + str(time) + '.txt'
+    f = open(time_result, 'w')
+    f.close()
 
 if __name__ == "__main__":
     print("START: %s" % SCRIPT_NAME)

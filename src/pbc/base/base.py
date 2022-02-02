@@ -1,6 +1,7 @@
 # coding: utf-8
 
 import os
+import time
 # import tensorflow as tf
 import pandas as pd
 import tensorflow.compat.v1 as tf
@@ -19,11 +20,13 @@ class BaseTrain:
 
 
     def train(self):
+        learning_start = time.time()
         for cur_epoch in range(0, self.conf.epoch+1, 1):
             self.train_epoch(cur_epoch)
 
         self.show_result_series()
         self.output_result()
+        return time.time() - learning_start
 
     def training_epoch(self, current_epoch):
         # for batch loop

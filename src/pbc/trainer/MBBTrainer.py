@@ -93,65 +93,65 @@ class MBBTrainer(BaseTrain):
         if (current_epoch % self.conf.reest_P_interval) == 0 or current_epoch == self.conf.epoch:
             self.update_P(current_epoch)
 
-        if (self.classifier.dim_num == 2) and (current_epoch % self.conf.plotting_interval) == 0:
-            print ("2D Plotting ...")
+        # if (self.classifier.dim_num == 2) and (current_epoch % self.conf.plotting_interval) == 0:
+            # print ("2D Plotting ...")
 
-            A = self.sess.run(self.classifier.A)
-            ytS = self.yt[self.flatten_S]
-            xS = self.Xtr[self.flatten_S]
-            wS = self.sess.run(self.trainer.W, feed_dict=self.feed_dict_training_S).flatten()
-            PhatS = self.sess.run(self.trainer.P_hat, feed_dict=self.feed_dict_training_S).flatten()
-            cntS = self.sess.run(self.trainer.S_cnt, feed_dict=self.feed_dict_training_S).flatten()
+            # A = self.sess.run(self.classifier.A)
+            # ytS = self.yt[self.flatten_S]
+            # xS = self.Xtr[self.flatten_S]
+            # wS = self.sess.run(self.trainer.W, feed_dict=self.feed_dict_training_S).flatten()
+            # PhatS = self.sess.run(self.trainer.P_hat, feed_dict=self.feed_dict_training_S).flatten()
+            # cntS = self.sess.run(self.trainer.S_cnt, feed_dict=self.feed_dict_training_S).flatten()
 
-            A_by_class = [A[i, :, :] for i in range(self.classifier.class_num)]
-            Xtr_yp_by_class = [self.Xtr[np.where(self.yp == i)] for i in range(self.classifier.class_num)]
-            Xtr_yt_by_class = [self.Xtr[np.where(self.yt == i)] for i in range(self.classifier.class_num)]
-            xS_yt_by_class = [xS[np.where(ytS == i)] for i in range(self.classifier.class_num)]
-            wS_by_class = [wS[np.where(ytS == i)] for i in range(self.classifier.class_num)]
-            PhatS_by_class = [PhatS[np.where(ytS == i)] for i in range(self.classifier.class_num)]
+            # A_by_class = [A[i, :, :] for i in range(self.classifier.class_num)]
+            # Xtr_yp_by_class = [self.Xtr[np.where(self.yp == i)] for i in range(self.classifier.class_num)]
+            # Xtr_yt_by_class = [self.Xtr[np.where(self.yt == i)] for i in range(self.classifier.class_num)]
+            # xS_yt_by_class = [xS[np.where(ytS == i)] for i in range(self.classifier.class_num)]
+            # wS_by_class = [wS[np.where(ytS == i)] for i in range(self.classifier.class_num)]
+            # PhatS_by_class = [PhatS[np.where(ytS == i)] for i in range(self.classifier.class_num)]
 
-            fig3216 = plt.figure(figsize=(32, 16))
+            # fig3216 = plt.figure(figsize=(32, 16))
 
-            # Sample label
-            ax = fig3216.add_subplot(1, 2, 1)
-            for j in range(self.classifier.class_num):
-                ax.scatter(Xtr_yt_by_class[j][:, 0], Xtr_yt_by_class[j][:, 1],
-                           marker="o", s=120, c=CMAP(j), alpha=0.5, label="class %s" % (j+1))
-            for j in range(self.classifier.class_num):
-                ax.scatter(A_by_class[j][:, 0], A_by_class[j][:, 1],
-                           marker="s", s=180, c=CMAP(j), linewidth=3, edgecolors="black", label="class %s" % (j+1))
+            # # Sample label
+            # ax = fig3216.add_subplot(1, 2, 1)
+            # for j in range(self.classifier.class_num):
+            #     ax.scatter(Xtr_yt_by_class[j][:, 0], Xtr_yt_by_class[j][:, 1],
+            #                marker="o", s=120, c=CMAP(j), alpha=0.5, label="class %s" % (j+1))
+            # for j in range(self.classifier.class_num):
+            #     ax.scatter(A_by_class[j][:, 0], A_by_class[j][:, 1],
+            #                marker="s", s=180, c=CMAP(j), linewidth=3, edgecolors="black", label="class %s" % (j+1))
 
-            ax = fig3216.add_subplot(1, 2, 2)
-            for j in range(self.classifier.class_num):
-                ax.scatter(Xtr_yp_by_class[j][:, 0], Xtr_yp_by_class[j][:, 1],
-                           marker="o", s=120, c=CMAP(j), alpha=0.5, label="class %s" % (j+1))
-            for j in range(self.classifier.class_num):
-                ax.scatter(A_by_class[j][:, 0], A_by_class[j][:, 1],
-                           marker="s", s=180, c=CMAP(j), linewidth=3, edgecolors="black", label="class %s" % (j+1))
+            # ax = fig3216.add_subplot(1, 2, 2)
+            # for j in range(self.classifier.class_num):
+            #     ax.scatter(Xtr_yp_by_class[j][:, 0], Xtr_yp_by_class[j][:, 1],
+            #                marker="o", s=120, c=CMAP(j), alpha=0.5, label="class %s" % (j+1))
+            # for j in range(self.classifier.class_num):
+            #     ax.scatter(A_by_class[j][:, 0], A_by_class[j][:, 1],
+            #                marker="s", s=180, c=CMAP(j), linewidth=3, edgecolors="black", label="class %s" % (j+1))
 
-            save_plt_fig(fig3216, os.path.join(self.conf.output, "Prototypes-%s.png" % current_epoch))
+            # save_plt_fig(fig3216, os.path.join(self.conf.output, "Prototypes-%s.png" % current_epoch))
 
-            # Phat and Weight
-            ax = fig3216.add_subplot(1, 2, 1)
-            for j in range(self.classifier.class_num):
-                ax.scatter(Xtr_yp_by_class[j][:, 0], Xtr_yp_by_class[j][:, 1],
-                           marker="o", s=120, c=CMAP(j), alpha=0.5, label="class %s" % (j+1))
-            for j in range(self.classifier.class_num):
-                axc1 = ax.scatter(xS_yt_by_class[j][:, 0], xS_yt_by_class[j][:, 1],
-                                  marker="o", s=180, linewidth=3, edgecolors="black", c=PhatS_by_class[j], cmap="magma", vmin=0.0, vmax=1.0)
-            fig3216.colorbar(axc1)
+            # # Phat and Weight
+            # ax = fig3216.add_subplot(1, 2, 1)
+            # for j in range(self.classifier.class_num):
+            #     ax.scatter(Xtr_yp_by_class[j][:, 0], Xtr_yp_by_class[j][:, 1],
+            #                marker="o", s=120, c=CMAP(j), alpha=0.5, label="class %s" % (j+1))
+            # for j in range(self.classifier.class_num):
+            #     axc1 = ax.scatter(xS_yt_by_class[j][:, 0], xS_yt_by_class[j][:, 1],
+            #                       marker="o", s=180, linewidth=3, edgecolors="black", c=PhatS_by_class[j], cmap="magma", vmin=0.0, vmax=1.0)
+            # fig3216.colorbar(axc1)
 
-            ax = fig3216.add_subplot(1, 2, 2)
-            for j in range(self.classifier.class_num):
-                ax.scatter(Xtr_yp_by_class[j][:, 0], Xtr_yp_by_class[j][:, 1],
-                           marker="o", s=120, c=CMAP(j), alpha=0.5, label="class %s" % (j+1))
-            for j in range(self.classifier.class_num):
-                axc2 = ax.scatter(xS_yt_by_class[j][:, 0], xS_yt_by_class[j][:, 1],
-                                  marker="o", s=180, linewidth=3, edgecolors="black", c=wS_by_class[j], cmap="magma")
-            fig3216.colorbar(axc2)
+            # ax = fig3216.add_subplot(1, 2, 2)
+            # for j in range(self.classifier.class_num):
+            #     ax.scatter(Xtr_yp_by_class[j][:, 0], Xtr_yp_by_class[j][:, 1],
+            #                marker="o", s=120, c=CMAP(j), alpha=0.5, label="class %s" % (j+1))
+            # for j in range(self.classifier.class_num):
+            #     axc2 = ax.scatter(xS_yt_by_class[j][:, 0], xS_yt_by_class[j][:, 1],
+            #                       marker="o", s=180, linewidth=3, edgecolors="black", c=wS_by_class[j], cmap="magma")
+            # fig3216.colorbar(axc2)
 
-            save_plt_fig(fig3216, os.path.join(self.conf.output, "PhatWeights-%s.png" % current_epoch))
-            plt.close(fig3216)
+            # save_plt_fig(fig3216, os.path.join(self.conf.output, "PhatWeights-%s.png" % current_epoch))
+            # plt.close(fig3216)
 
         # TRAINING
         self.train_step(current_epoch)
