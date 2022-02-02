@@ -1,0 +1,7 @@
+Dataset,Cardiotocography2C
+Date,2020-09-16_07:42:17
+CV: fold k,10
+PBC: p range,range(1, 101)
+CV_PBC: Minimum training error (p=92.0),0.07072893381118775
+CV_PBC: Minimum validation error (p=95.0),0.1025773048400879
+Runtime,1h:57m:50s

@@ -1,0 +1,7 @@
+Dataset,German
+Date,2020-09-16_10:17:56
+CV: fold k,10
+PBC: p range,range(1, 101)
+CV_PBC: Minimum training error (p=99.0),0.0802222192287445
+CV_PBC: Minimum validation error (p=1.0),0.27299998998641967
+Runtime,1h:32m:57s

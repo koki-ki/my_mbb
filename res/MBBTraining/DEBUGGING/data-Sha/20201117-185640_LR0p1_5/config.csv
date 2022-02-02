@@ -1,0 +1,12 @@
+name,exp_grid_dataset-data-Sha
+dataset,../dataset/data_Sha.csv
+training_size,0.5
+testing_size,0.5
+output,../res/MBBTraining/DEBUGGING/data-Sha/20201117-185640_LR0p1_5
+plotting_interval,1000
+epoch,5000
+reest_B_interval,1000
+reest_P_interval,1000
+proto,5
+learning_rate,0.1
+knn_size,40

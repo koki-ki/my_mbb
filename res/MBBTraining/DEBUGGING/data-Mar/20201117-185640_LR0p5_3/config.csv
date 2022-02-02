@@ -1,0 +1,12 @@
+name,exp_grid_dataset-data-Mar
+dataset,../dataset/data_Mar.csv
+training_size,0.5
+testing_size,0.5
+output,../res/MBBTraining/DEBUGGING/data-Mar/20201117-185640_LR0p5_3
+plotting_interval,1000
+epoch,5000
+reest_B_interval,1000
+reest_P_interval,1000
+proto,3
+learning_rate,0.5
+knn_size,40

@@ -1,0 +1,7 @@
+Dataset,Abalone
+Date,2020-09-15_18:42:58
+CV: fold k,10
+PBC: p range,range(1, 101)
+CV_PBC: Minimum training error (p=100.0),0.292900824546814
+CV_PBC: Minimum validation error (p=1.0),0.42163461446762085
+Runtime,2h:21m:23s

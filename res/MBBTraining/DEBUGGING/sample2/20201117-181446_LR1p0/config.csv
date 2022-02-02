@@ -1,0 +1,12 @@
+name,exp_debug-sample2
+dataset,../dataset/sample2.csv
+training_size,0.5
+testing_size,0.5
+output,../res/MBBTraining/DEBUGGING/sample2/20201117-181446_LR1p0
+plotting_interval,1000
+epoch,10
+reest_B_interval,1000
+reest_P_interval,1000
+proto,100
+learning_rate,1.0
+knn_size,40

@@ -11,7 +11,6 @@
 .matplotlibrc
 !.vim/vimrc
 !.vim/tool
-res/
 
 #
 # for c++ requirements

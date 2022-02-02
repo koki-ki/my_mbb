@@ -1,0 +1,7 @@
+Dataset,BreastCancer
+Date,2020-09-16_05:50:47
+CV: fold k,10
+PBC: p range,range(1, 101)
+CV_PBC: Minimum training error (p=100.0),0.005519479513168335
+CV_PBC: Minimum validation error (p=1.0),0.03582088947296143
+Runtime,1h:47m:00s

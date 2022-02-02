@@ -1,0 +1,8 @@
+Dataset,Abalone01
+Date,2020-09-15_13:42:27
+CV: fold k,10
+SVM: C range (2**),range(-15, 16)
+SVM: gamma range (2**),range(-15, 16)
+CV_SVM: Minimum training error (C=0.0 gamma=8.0),0.0
+CV_SVM: Minimum validation error (C=12.0 gamma=-5.0),0.21323529411764705
+Runtime,2h:58m:26s

@@ -1,0 +1,7 @@
+Dataset,GMM5C
+Date,2020-09-16_12:07:37
+CV: fold k,10
+PBC: p range,range(1, 101)
+CV_PBC: Minimum training error (p=100.0),0.04255555272102356
+CV_PBC: Minimum validation error (p=2.0),0.17300000190734863
+Runtime,1h:42m:36s
