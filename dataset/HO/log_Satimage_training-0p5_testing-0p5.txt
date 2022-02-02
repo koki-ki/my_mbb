@@ -1,0 +1,26 @@
+ * Create date: 2020-01-14_22:58:30
+ * Save dataset to ../dataset/HO/Satimage_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 36
+  - Class: 6
+  - Total Samples: 6435
+   - Class 0.0: 1533 (class ratio: 0.23822843822843823)
+   - Class 1.0: 703 (class ratio: 0.10924630924630925)
+   - Class 2.0: 1358 (class ratio: 0.21103341103341103)
+   - Class 3.0: 626 (class ratio: 0.09728049728049729)
+   - Class 4.0: 707 (class ratio: 0.10986790986790987)
+   - Class 5.0: 1508 (class ratio: 0.23434343434343435)
+  - Training Samples: 3216 (sample ratio: 0.49976689976689975)
+   - Class 0.0: 766 (class ratio: 0.23818407960199006)
+   - Class 1.0: 351 (class ratio: 0.10914179104477612)
+   - Class 2.0: 679 (class ratio: 0.2111318407960199)
+   - Class 3.0: 313 (class ratio: 0.09732587064676616)
+   - Class 4.0: 353 (class ratio: 0.10976368159203981)
+   - Class 5.0: 754 (class ratio: 0.23445273631840796)
+  - Testing Samples: 3219 (sample ratio: 0.5002331002331002)
+   - Class 0.0: 767 (class ratio: 0.23827275551413482)
+   - Class 1.0: 352 (class ratio: 0.10935073004038522)
+   - Class 2.0: 679 (class ratio: 0.21093507300403852)
+   - Class 3.0: 313 (class ratio: 0.09723516620068344)
+   - Class 4.0: 354 (class ratio: 0.10997204100652376)
+   - Class 5.0: 754 (class ratio: 0.23423423423423423)

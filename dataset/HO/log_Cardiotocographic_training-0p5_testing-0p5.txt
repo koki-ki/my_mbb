@@ -1,0 +1,38 @@
+ * Create date: 2022-01-19_04:27:14
+ * Save dataset to /Users/koki_ccilab/Documents/learning/doshisha/MBB/my_mbb/dataset/HO/Cardiotocographic_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 23
+  - Class: 10
+  - Total Samples: 2126
+   - Class 0.0: 384 (class ratio: 0.18062088428974601)
+   - Class 1.0: 579 (class ratio: 0.27234242709313267)
+   - Class 2.0: 53 (class ratio: 0.02492944496707432)
+   - Class 3.0: 81 (class ratio: 0.0380997177798683)
+   - Class 4.0: 72 (class ratio: 0.03386641580432737)
+   - Class 5.0: 332 (class ratio: 0.1561618062088429)
+   - Class 6.0: 252 (class ratio: 0.11853245531514581)
+   - Class 7.0: 107 (class ratio: 0.05032925682031985)
+   - Class 8.0: 69 (class ratio: 0.032455315145813735)
+   - Class 9.0: 197 (class ratio: 0.09266227657572906)
+  - Training Samples: 1060 (sample ratio: 0.49858889934148637)
+   - Class 0.0: 192 (class ratio: 0.1811320754716981)
+   - Class 1.0: 289 (class ratio: 0.27264150943396226)
+   - Class 2.0: 26 (class ratio: 0.024528301886792454)
+   - Class 3.0: 40 (class ratio: 0.03773584905660377)
+   - Class 4.0: 36 (class ratio: 0.033962264150943396)
+   - Class 5.0: 166 (class ratio: 0.15660377358490565)
+   - Class 6.0: 126 (class ratio: 0.11886792452830189)
+   - Class 7.0: 53 (class ratio: 0.05)
+   - Class 8.0: 34 (class ratio: 0.03207547169811321)
+   - Class 9.0: 98 (class ratio: 0.09245283018867924)
+  - Testing Samples: 1066 (sample ratio: 0.5014111006585137)
+   - Class 0.0: 192 (class ratio: 0.1801125703564728)
+   - Class 1.0: 290 (class ratio: 0.27204502814258913)
+   - Class 2.0: 27 (class ratio: 0.025328330206378986)
+   - Class 3.0: 41 (class ratio: 0.038461538461538464)
+   - Class 4.0: 36 (class ratio: 0.03377110694183865)
+   - Class 5.0: 166 (class ratio: 0.15572232645403378)
+   - Class 6.0: 126 (class ratio: 0.11819887429643527)
+   - Class 7.0: 54 (class ratio: 0.05065666041275797)
+   - Class 8.0: 35 (class ratio: 0.03283302063789869)
+   - Class 9.0: 99 (class ratio: 0.09287054409005628)

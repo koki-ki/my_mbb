@@ -1,0 +1,14 @@
+ * Create date: 2020-01-14_22:58:34
+ * Save dataset to ../dataset/HO/Sonar_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 60
+  - Class: 2
+  - Total Samples: 208
+   - Class 0.0: 97 (class ratio: 0.46634615384615385)
+   - Class 1.0: 111 (class ratio: 0.5336538461538461)
+  - Training Samples: 103 (sample ratio: 0.4951923076923077)
+   - Class 0.0: 48 (class ratio: 0.46601941747572817)
+   - Class 1.0: 55 (class ratio: 0.5339805825242718)
+  - Testing Samples: 105 (sample ratio: 0.5048076923076923)
+   - Class 0.0: 49 (class ratio: 0.4666666666666667)
+   - Class 1.0: 56 (class ratio: 0.5333333333333333)

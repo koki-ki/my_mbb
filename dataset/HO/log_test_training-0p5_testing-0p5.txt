@@ -1,0 +1,14 @@
+ * Create date: 2020-12-15_14:29:05
+ * Save dataset to /Users/ccilab/Desktop/senda_master_2018th_DVD/SOURCE_CODE/mbb_training_prmu/dataset/HO/test_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 2
+  - Class: 2
+  - Total Samples: 4
+   - Class 0.0: 2 (class ratio: 0.5)
+   - Class 1.0: 2 (class ratio: 0.5)
+  - Training Samples: 2 (sample ratio: 0.5)
+   - Class 0.0: 1 (class ratio: 0.5)
+   - Class 1.0: 1 (class ratio: 0.5)
+  - Testing Samples: 2 (sample ratio: 0.5)
+   - Class 0.0: 1 (class ratio: 0.5)
+   - Class 1.0: 1 (class ratio: 0.5)

@@ -1,0 +1,38 @@
+ * Create date: 2020-01-14_22:58:28
+ * Save dataset to ../dataset/HO/Avila_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 10
+  - Class: 10
+  - Total Samples: 20772
+   - Class 0.0: 8572 (class ratio: 0.41267090313884075)
+   - Class 1.0: 1054 (class ratio: 0.050741382630464085)
+   - Class 2.0: 532 (class ratio: 0.025611399961486616)
+   - Class 3.0: 206 (class ratio: 0.009917196225688426)
+   - Class 4.0: 704 (class ratio: 0.03389177739264394)
+   - Class 5.0: 2190 (class ratio: 0.10543038705950318)
+   - Class 6.0: 3922 (class ratio: 0.18881186212208742)
+   - Class 7.0: 892 (class ratio: 0.04294242249181591)
+   - Class 8.0: 1038 (class ratio: 0.04997111496244945)
+   - Class 9.0: 1662 (class ratio: 0.08001155401502022)
+  - Training Samples: 10386 (sample ratio: 0.5)
+   - Class 0.0: 4286 (class ratio: 0.41267090313884075)
+   - Class 1.0: 527 (class ratio: 0.050741382630464085)
+   - Class 2.0: 266 (class ratio: 0.025611399961486616)
+   - Class 3.0: 103 (class ratio: 0.009917196225688426)
+   - Class 4.0: 352 (class ratio: 0.03389177739264394)
+   - Class 5.0: 1095 (class ratio: 0.10543038705950318)
+   - Class 6.0: 1961 (class ratio: 0.18881186212208742)
+   - Class 7.0: 446 (class ratio: 0.04294242249181591)
+   - Class 8.0: 519 (class ratio: 0.04997111496244945)
+   - Class 9.0: 831 (class ratio: 0.08001155401502022)
+  - Testing Samples: 10386 (sample ratio: 0.5)
+   - Class 0.0: 4286 (class ratio: 0.41267090313884075)
+   - Class 1.0: 527 (class ratio: 0.050741382630464085)
+   - Class 2.0: 266 (class ratio: 0.025611399961486616)
+   - Class 3.0: 103 (class ratio: 0.009917196225688426)
+   - Class 4.0: 352 (class ratio: 0.03389177739264394)
+   - Class 5.0: 1095 (class ratio: 0.10543038705950318)
+   - Class 6.0: 1961 (class ratio: 0.18881186212208742)
+   - Class 7.0: 446 (class ratio: 0.04294242249181591)
+   - Class 8.0: 519 (class ratio: 0.04997111496244945)
+   - Class 9.0: 831 (class ratio: 0.08001155401502022)

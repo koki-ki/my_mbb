@@ -1,0 +1,17 @@
+ * Create date: 2020-11-14_15:20:18
+ * Save dataset to /Users/ccilab/Desktop/senda_master_2018th_DVD/SOURCE_CODE/mbb_training_prmu/dataset/HO/WineWhite3C_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 11
+  - Class: 3
+  - Total Samples: 4898
+   - Class 0.0: 1640 (class ratio: 0.33483054307880766)
+   - Class 1.0: 2198 (class ratio: 0.44875459371171905)
+   - Class 2.0: 1060 (class ratio: 0.21641486320947326)
+  - Training Samples: 2449 (sample ratio: 0.5)
+   - Class 0.0: 820 (class ratio: 0.33483054307880766)
+   - Class 1.0: 1099 (class ratio: 0.44875459371171905)
+   - Class 2.0: 530 (class ratio: 0.21641486320947326)
+  - Testing Samples: 2449 (sample ratio: 0.5)
+   - Class 0.0: 820 (class ratio: 0.33483054307880766)
+   - Class 1.0: 1099 (class ratio: 0.44875459371171905)
+   - Class 2.0: 530 (class ratio: 0.21641486320947326)

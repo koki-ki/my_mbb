@@ -1,0 +1,14 @@
+ * Create date: 2020-01-14_22:58:28
+ * Save dataset to ../dataset/HO/Banknote_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 4
+  - Class: 2
+  - Total Samples: 1372
+   - Class 0.0: 762 (class ratio: 0.5553935860058309)
+   - Class 1.0: 610 (class ratio: 0.4446064139941691)
+  - Training Samples: 686 (sample ratio: 0.5)
+   - Class 0.0: 381 (class ratio: 0.5553935860058309)
+   - Class 1.0: 305 (class ratio: 0.4446064139941691)
+  - Testing Samples: 686 (sample ratio: 0.5)
+   - Class 0.0: 381 (class ratio: 0.5553935860058309)
+   - Class 1.0: 305 (class ratio: 0.4446064139941691)

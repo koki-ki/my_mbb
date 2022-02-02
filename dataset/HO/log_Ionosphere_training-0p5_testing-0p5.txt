@@ -1,0 +1,14 @@
+ * Create date: 2020-01-14_22:58:34
+ * Save dataset to ../dataset/HO/Ionosphere_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 34
+  - Class: 2
+  - Total Samples: 351
+   - Class 0.0: 225 (class ratio: 0.6410256410256411)
+   - Class 1.0: 126 (class ratio: 0.358974358974359)
+  - Training Samples: 175 (sample ratio: 0.4985754985754986)
+   - Class 0.0: 112 (class ratio: 0.64)
+   - Class 1.0: 63 (class ratio: 0.36)
+  - Testing Samples: 176 (sample ratio: 0.5014245014245015)
+   - Class 0.0: 113 (class ratio: 0.6420454545454546)
+   - Class 1.0: 63 (class ratio: 0.35795454545454547)

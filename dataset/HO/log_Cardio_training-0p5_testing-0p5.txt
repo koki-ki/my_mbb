@@ -1,0 +1,14 @@
+ * Create date: 2020-01-14_22:58:34
+ * Save dataset to ../dataset/HO/Cardio_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 30
+  - Class: 2
+  - Total Samples: 1831
+   - Class 0.0: 1655 (class ratio: 0.9038776624795194)
+   - Class 1.0: 176 (class ratio: 0.0961223375204806)
+  - Training Samples: 915 (sample ratio: 0.4997269251774986)
+   - Class 0.0: 827 (class ratio: 0.9038251366120219)
+   - Class 1.0: 88 (class ratio: 0.09617486338797815)
+  - Testing Samples: 916 (sample ratio: 0.5002730748225014)
+   - Class 0.0: 828 (class ratio: 0.9039301310043668)
+   - Class 1.0: 88 (class ratio: 0.09606986899563319)

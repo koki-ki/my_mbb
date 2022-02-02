@@ -1,0 +1,14 @@
+ * Create date: 2020-01-14_22:58:28
+ * Save dataset to ../dataset/HO/German_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 24
+  - Class: 2
+  - Total Samples: 1000
+   - Class 0.0: 700 (class ratio: 0.7)
+   - Class 1.0: 300 (class ratio: 0.3)
+  - Training Samples: 500 (sample ratio: 0.5)
+   - Class 0.0: 350 (class ratio: 0.7)
+   - Class 1.0: 150 (class ratio: 0.3)
+  - Testing Samples: 500 (sample ratio: 0.5)
+   - Class 0.0: 350 (class ratio: 0.7)
+   - Class 1.0: 150 (class ratio: 0.3)

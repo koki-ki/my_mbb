@@ -1,0 +1,17 @@
+ * Create date: 2020-01-14_22:58:32
+ * Save dataset to ../dataset/HO/Thyroid_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 21
+  - Class: 3
+  - Total Samples: 7200
+   - Class 0.0: 166 (class ratio: 0.023055555555555555)
+   - Class 1.0: 368 (class ratio: 0.051111111111111114)
+   - Class 2.0: 6666 (class ratio: 0.9258333333333333)
+  - Training Samples: 3600 (sample ratio: 0.5)
+   - Class 0.0: 83 (class ratio: 0.023055555555555555)
+   - Class 1.0: 184 (class ratio: 0.051111111111111114)
+   - Class 2.0: 3333 (class ratio: 0.9258333333333333)
+  - Testing Samples: 3600 (sample ratio: 0.5)
+   - Class 0.0: 83 (class ratio: 0.023055555555555555)
+   - Class 1.0: 184 (class ratio: 0.051111111111111114)
+   - Class 2.0: 3333 (class ratio: 0.9258333333333333)

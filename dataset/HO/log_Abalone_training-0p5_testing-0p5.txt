@@ -1,0 +1,17 @@
+ * Create date: 2020-01-14_22:58:27
+ * Save dataset to ../dataset/HO/Abalone_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 7
+  - Class: 3
+  - Total Samples: 4177
+   - Class 0.0: 1407 (class ratio: 0.33684462532918363)
+   - Class 1.0: 1323 (class ratio: 0.3167344984438592)
+   - Class 2.0: 1447 (class ratio: 0.34642087622695716)
+  - Training Samples: 2087 (sample ratio: 0.4996408905913335)
+   - Class 0.0: 703 (class ratio: 0.3368471490177288)
+   - Class 1.0: 661 (class ratio: 0.3167225682798275)
+   - Class 2.0: 723 (class ratio: 0.3464302827024437)
+  - Testing Samples: 2090 (sample ratio: 0.5003591094086665)
+   - Class 0.0: 704 (class ratio: 0.3368421052631579)
+   - Class 1.0: 662 (class ratio: 0.3167464114832536)
+   - Class 2.0: 724 (class ratio: 0.3464114832535885)

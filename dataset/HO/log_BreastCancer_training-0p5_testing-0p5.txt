@@ -1,0 +1,14 @@
+ * Create date: 2020-01-14_22:58:28
+ * Save dataset to ../dataset/HO/BreastCancer_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 9
+  - Class: 2
+  - Total Samples: 683
+   - Class 0.0: 444 (class ratio: 0.6500732064421669)
+   - Class 1.0: 239 (class ratio: 0.34992679355783307)
+  - Training Samples: 341 (sample ratio: 0.4992679355783309)
+   - Class 0.0: 222 (class ratio: 0.6510263929618768)
+   - Class 1.0: 119 (class ratio: 0.3489736070381232)
+  - Testing Samples: 342 (sample ratio: 0.5007320644216691)
+   - Class 0.0: 222 (class ratio: 0.6491228070175439)
+   - Class 1.0: 120 (class ratio: 0.3508771929824561)

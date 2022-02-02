@@ -1,0 +1,17 @@
+ * Create date: 2020-01-14_22:58:33
+ * Save dataset to ../dataset/HO/Cardiotocography_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 21
+  - Class: 3
+  - Total Samples: 2126
+   - Class 0.0: 1655 (class ratio: 0.7784571966133584)
+   - Class 1.0: 295 (class ratio: 0.138758231420508)
+   - Class 2.0: 176 (class ratio: 0.08278457196613359)
+  - Training Samples: 1062 (sample ratio: 0.4995296331138288)
+   - Class 0.0: 827 (class ratio: 0.7787193973634652)
+   - Class 1.0: 147 (class ratio: 0.1384180790960452)
+   - Class 2.0: 88 (class ratio: 0.08286252354048965)
+  - Testing Samples: 1064 (sample ratio: 0.5004703668861712)
+   - Class 0.0: 828 (class ratio: 0.7781954887218046)
+   - Class 1.0: 148 (class ratio: 0.13909774436090225)
+   - Class 2.0: 88 (class ratio: 0.08270676691729323)

@@ -1,0 +1,23 @@
+ * Create date: 2021-12-02_01:06:17
+ * Save dataset to /Users/koki_ccilab/Documents/learning/同志社大学/4回生_CCILAB/mbb_training_prmu/dataset/HO/GMM5C_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 2
+  - Class: 5
+  - Total Samples: 1000
+   - Class 0.0: 200 (class ratio: 0.2)
+   - Class 1.0: 200 (class ratio: 0.2)
+   - Class 2.0: 200 (class ratio: 0.2)
+   - Class 3.0: 200 (class ratio: 0.2)
+   - Class 4.0: 200 (class ratio: 0.2)
+  - Training Samples: 500 (sample ratio: 0.5)
+   - Class 0.0: 100 (class ratio: 0.2)
+   - Class 1.0: 100 (class ratio: 0.2)
+   - Class 2.0: 100 (class ratio: 0.2)
+   - Class 3.0: 100 (class ratio: 0.2)
+   - Class 4.0: 100 (class ratio: 0.2)
+  - Testing Samples: 500 (sample ratio: 0.5)
+   - Class 0.0: 100 (class ratio: 0.2)
+   - Class 1.0: 100 (class ratio: 0.2)
+   - Class 2.0: 100 (class ratio: 0.2)
+   - Class 3.0: 100 (class ratio: 0.2)
+   - Class 4.0: 100 (class ratio: 0.2)

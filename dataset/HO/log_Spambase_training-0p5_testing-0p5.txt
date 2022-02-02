@@ -1,0 +1,14 @@
+ * Create date: 2020-01-14_22:58:31
+ * Save dataset to ../dataset/HO/Spambase_training-0p5_testing-0p5.csv
+  - Seed: 0
+  - Dimension: 57
+  - Class: 2
+  - Total Samples: 4601
+   - Class 0.0: 2788 (class ratio: 0.6059552271245382)
+   - Class 1.0: 1813 (class ratio: 0.39404477287546186)
+  - Training Samples: 2300 (sample ratio: 0.49989132797217994)
+   - Class 0.0: 1394 (class ratio: 0.6060869565217392)
+   - Class 1.0: 906 (class ratio: 0.3939130434782609)
+  - Testing Samples: 2301 (sample ratio: 0.5001086720278201)
+   - Class 0.0: 1394 (class ratio: 0.6058235549760973)
+   - Class 1.0: 907 (class ratio: 0.39417644502390264)

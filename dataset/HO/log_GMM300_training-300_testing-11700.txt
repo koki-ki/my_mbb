@@ -1,0 +1,14 @@
+ * Create date: 2020-01-14_22:58:29
+ * Save dataset to ../dataset/HO/GMM300_training-300_testing-11700.csv
+  - Seed: 0
+  - Dimension: 2
+  - Class: 2
+  - Total Samples: 12000
+   - Class 0.0: 6000 (class ratio: 0.5)
+   - Class 1.0: 6000 (class ratio: 0.5)
+  - Training Samples: 300 (sample ratio: 0.025)
+   - Class 0.0: 150 (class ratio: 0.5)
+   - Class 1.0: 150 (class ratio: 0.5)
+  - Testing Samples: 11700 (sample ratio: 0.975)
+   - Class 0.0: 5850 (class ratio: 0.5)
+   - Class 1.0: 5850 (class ratio: 0.5)
