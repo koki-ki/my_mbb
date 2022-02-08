@@ -1,0 +1,13 @@
+name,exp_debug-WineWhite3C
+dataset,dataset/WineWhite3C.csv
+training_size,0.5
+testing_size,0.5
+output,./res/MBBTraining/DEBUGGING/WineWhite3C/20220208-184013_LR1p0
+plotting_interval,1000
+epoch,10000
+reest_B_interval,1000
+reest_P_interval,1000
+proto,100
+learning_rate,1.0
+knn_size,40
+sigma,0.1

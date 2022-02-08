@@ -1,0 +1,13 @@
+name,exp_debug-Spambase
+dataset,dataset/Spambase.csv
+training_size,0.5
+testing_size,0.5
+output,./res/MBBTraining/DEBUGGING/Spambase/20220208-205020_LR0p1
+plotting_interval,1000
+epoch,10000
+reest_B_interval,1000
+reest_P_interval,1000
+proto,100
+learning_rate,0.1
+knn_size,40
+sigma,0.1

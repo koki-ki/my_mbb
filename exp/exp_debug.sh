@@ -26,10 +26,10 @@ DATASET_BASEDIR="dataset"
 
 DATASET=(
   # "GMM5C.csv" 
-  # "German.csv" 
+  "German.csv" 
   # "Abalone01.csv"
   # "Abalone.csv" 
-  "BreastCancer.csv" 
+  # "BreastCancer.csv" 
   # "GMM2000.csv"
   # "GMM300.csv" 
   # "Cardiotocography2C.csv" 
@@ -37,7 +37,7 @@ DATASET=(
   # "WineRed3C.csv"
   # "WineWhite3C.csv" 
   # "Satimage.csv" 
-  # "Spambase.csv" 
+  "Spambase.csv" 
   # "Cardiotocographic.csv"
   # "data_Tex.csv"
   # "data_Sha.csv"
@@ -45,12 +45,13 @@ DATASET=(
 )
 
 ### EXPERIMENT PARAMETER ######################################################
-EPOCH=10
+EPOCH=10000
 PROTO=100
 KNN=40
 LEARNING_RATE=(\
 # #  5.0 \
 #  1.0 \
+# 0.5\
 #  0.25 \
  0.1 \
 #  0.05 \

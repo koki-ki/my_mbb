@@ -23,11 +23,13 @@ class BaseTrain:
         learning_start = time.time()
         for cur_epoch in range(0, self.conf.epoch+1, 1):
             self.train_epoch(cur_epoch)
+        time_result = time.time() - learning_start
 
         self.show_result_series()
         self.output_result()
-        return time.time() - learning_start
+        return time_result
 
+        
     def training_epoch(self, current_epoch):
         # for batch loop
         raise NotImplementedError
